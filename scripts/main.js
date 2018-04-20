@@ -9,7 +9,7 @@ $(document).ready(function () {
 		 var appendList = '';
         for(var i = 0; i < response.length; i++){
 			var temp=response[i];
-            appendList += "<li>Index:" + i + "Title:" + temp.title + "</li>";
+            appendList += "<li>Index:" + i + " Title:" + temp.title + "</li>";
 		
         }
          myList.append(appendList);
@@ -26,7 +26,7 @@ $(document).ready(function () {
 	   var prependList = '';
         for(var i = 0; i < response.length; i++){
 			var temp2=response[i];
-            prependList += "<li>Index:" + i + "Title:" + temp2.title+ "</li>";
+            prependList += "<li>Index:" + i + " Title:" + temp2.title+ "</li>";
 			  
 
         }
